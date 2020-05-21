@@ -1,7 +1,13 @@
 # PyCalc
 Calculadora feita em python com a biblioteca tkinter
-## Screenshots
-<img src=screenshots/ph1.png/ height=400 width=300>      <img src=screenshots/pycalc.gif/ height=400 width=300>
+## Screenshot
+<img src=screenshots/pycalc.gif/ height=400 width=300>
+
+----------------------------
+## Executar
+
+----------------------------
+## Manual
 
 ----------------------------
 ## Créditos
