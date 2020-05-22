@@ -5,6 +5,9 @@ Calculadora feita em python com a biblioteca tkinter
 
 ----------------------------
 ## Executar
+
+Requer python3.x instalado
+
 * **Windows**
 
   ```
