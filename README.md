@@ -13,11 +13,13 @@ Requer python3.x instalado.
   ```
   python __main__.py
   ```
+    ou execute **run.bat**
 * **Linux e MacOS**
 
   ```
   python3 __main__.py
   ```
+    ou execute **run.sh**
 ----------------------------
 ## Manual
 
