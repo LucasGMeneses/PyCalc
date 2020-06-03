@@ -26,6 +26,7 @@ Requires installed python3.x.
   ```
     or run **run.sh**
 ----------------------------
+
 ## Manual
 
 |Symbols| Operation|
