@@ -1,1 +1,1 @@
-python __main__.py
+python calc.py
