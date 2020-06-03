@@ -1,38 +1,38 @@
 # PyCalc v1.0
-Calculadora feita em python com a biblioteca tkinter
+Calculator made in python with the tkinter library
 ## Screenshot
 <img src=.screenshots/pycalc.gif/ height=400 width=300>
 
 ----------------------------
-## Executar
+## Run
 
-Requer python3.x instalado.
+Requires installed python3.x.
 
 * **Windows**
 
   ```
   python pycalc.py
   ```
-    ou execute **run.bat**
+    our execute **run.bat**
 * **Linux e MacOS**
 
   ```
   python3 pycalc.py
   ```
-    ou execute **run.sh**
+    our execute **run.sh**
 ----------------------------
 ## Manual
 
-|Símbolos| Operações|
+|Symbols| Operation|
 |--------|----------|
-| + | soma  |
-| - |subtração|
-| * |multiplicação|
-| **  |Exponencial|
-| / |divisão|
-| // |divisão, parte inteira|
-|%|modulo, resto da divisao|
-|AC|limpa a tela|
+| + | addition  |
+| - |subtraction|
+| * |multiplication|
+| **  |Exponential|
+| / |division|
+| // |division, whole part|
+|%|mod, rest of division|
+|AC|clear screen|
 
 ----------------------------
 ## Créditos
