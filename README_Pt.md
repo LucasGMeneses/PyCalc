@@ -14,7 +14,7 @@ Requer python3.x instalado.
   python pycalc.py
   ```
     ou execute **run.bat**
-* **Linux e MacOS**
+* **Linux ou MacOS**
 
   ```
   python3 pycalc.py

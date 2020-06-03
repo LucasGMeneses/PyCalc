@@ -13,13 +13,13 @@ Requires installed python3.x.
   ```
   python pycalc.py
   ```
-    our execute **run.bat**
-* **Linux e MacOS**
+    or run **run.bat**
+* **Linux or MacOS**
 
   ```
   python3 pycalc.py
   ```
-    our execute **run.sh**
+    or run **run.sh**
 ----------------------------
 ## Manual
 
