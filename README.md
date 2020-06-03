@@ -16,13 +16,13 @@ Requires installed python3.x.
 * **Windows**
 
   ```
-  python pycalc.py
+  python calc.py
   ```
     or run **run.bat**
 * **Linux or MacOS**
 
   ```
-  python3 pycalc.py
+  python3 calc.py
   ```
     or run **run.sh**
 ----------------------------
