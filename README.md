@@ -32,7 +32,7 @@ Requires installed python3.x.
 | / |division|
 | // |division, whole part|
 |%|mod, rest of division|
-|AC|clear screen|
+|AC|clean a screen|
 
 ----------------------------
 ## Créditos
