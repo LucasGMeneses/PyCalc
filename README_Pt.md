@@ -11,13 +11,13 @@ Requer python3.x instalado.
 * **Windows**
 
   ```
-  python pycalc.py
+  python __main__.py
   ```
     ou execute **run.bat**
 * **Linux e MacOS**
 
   ```
-  python3 pycalc.py
+  python3 __main__.py
   ```
     ou execute **run.sh**
 ----------------------------
