@@ -6,7 +6,9 @@ Calculator made in python with the tkinter library
 
 ## Screenshot
 <img src=.screenshots/pycalc.gif/ height=400 width=300>
+
 ----------------------------
+
 ## Run
 
 Requires installed python3.x.
