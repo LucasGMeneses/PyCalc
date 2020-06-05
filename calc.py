@@ -54,7 +54,7 @@ tela = tk.Label(win, width=17, height=3, bg='gray20', textvariable=cont, anchor=
 tela['font']= 'Arial 44 bold'
 tela.grid(columnspan=4)
 
-##CLEAN SCREEN ##
+## CLEAN SCREEN ##
 Botao(win, 'AC', w=30).grid(column=0, row=1, columnspan=2)
 ## MOD
 Botao(win, '%').grid(column=2, row=1)
