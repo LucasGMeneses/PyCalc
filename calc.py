@@ -33,9 +33,10 @@ class Botao(tk.Label):
             else:
                 cont.set('')
         
-
+        # enter
     def entrou(self, evt):
         self['bg'] = self.colors[1]
+        # exit 
     def saiu(self, evt):
         self['bg'] = self.colors[0]
 
