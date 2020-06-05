@@ -1,5 +1,5 @@
 import tkinter as tk
-import os
+
         # button style
 class Botao(tk.Label):
     def __init__(self, mst, text='', colors=('gray30', 'gray50', 'gray30'), w= 15):
