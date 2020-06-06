@@ -73,9 +73,9 @@ Botao(win, '0', w=30).grid(columnspan=2,column=0, row=5)
 
 ## POINT DECIMAL##
 Botao(win, '.').grid(column=2,row=5)
-op = '/*-+='
 
-### OPERATORS ###
+### OPERATORS ##
+op = '/*-+='
 for i in range(1,6):                #orange scale
     t = Botao(win,op[i-1],('#FFA500', '#FF8C00', '#FF4500'))
     t.grid(column=3, row=i)
