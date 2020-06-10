@@ -1,5 +1,5 @@
 import tkinter as tk
-
+import menubar as mbar
         # button style
 class Botao(tk.Label):
     def __init__(self, mst, text='', colors=('gray30', 'gray50', 'gray40'), w= 15):
@@ -55,6 +55,7 @@ win.iconphoto(False, tk.PhotoImage(file=file))
 win.resizable(False,False)
 win.config(bg='gray30')
 
+mbar.Menubar(win)
 ## SCREEN ##
 cont = tk.StringVar()
 cont.set('')
