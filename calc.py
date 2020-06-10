@@ -2,7 +2,7 @@ import tkinter as tk
 
         # button style
 class Botao(tk.Label):
-    def __init__(self, mst, text='', colors=('gray30', 'gray50', 'gray30'), w= 15):
+    def __init__(self, mst, text='', colors=('gray30', 'gray50', 'gray40'), w= 15):
         super().__init__()
         self['text'] = text
         self['width'] = w
@@ -22,16 +22,23 @@ class Botao(tk.Label):
         c = str(self['text'])
 
         if c == '=':
-        	#txt = txt.replace('/','//')
         	try: # syntax error
-        		cont.set(eval(txt)) # execute expression and print result
+        		res = str(eval(txt)) # execute expression
         	except:
-        		cont.set('Error') 
+        		cont.set('Error')
+        	else: 
+        		rn = len(res)
+        		if(rn < 18):
+        			cont.set(res)
+        		else:
+        			rn = rn - 17
+        			cont.set(res[:-rn])
         else:   
-            if(c != 'AC'): # clear screen
-                cont.set(txt+c)
+            if(c != 'AC'):
+            	if (len(txt+c) < 18):
+                	cont.set(txt+c)
             else:
-                cont.set('')
+                cont.set('') # clear screen
         
         # enter
     def entrou(self, evt):
