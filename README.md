@@ -1,4 +1,4 @@
-#  <img src=./icon.png height=40 width=40> PyCalc v1.0 
+# PyCalc v1.0 
 Readme in
 <a href="README_Pt.md">Português</a>.
 
