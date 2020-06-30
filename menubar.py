@@ -11,7 +11,11 @@ class Menubar(tk.Menu):
 
     def __create_optmenu(self, mst):
         optmenu = tk.Menu(self, tearoff=0, bg='gray30', fg='#ffffff', font='Arial 10 bold')
-        optmenu.add_command(label='Help')
+        optmenu.add_command(label='Help', command=self.help_screen)
         optmenu.add_separator()
         optmenu.add_command(label='Exit',command=mst.quit)
         self.add_cascade(label='Option', menu=optmenu)
+    def help_screen(self):
+    	help = tk.Toplevel()
+    	help.title('Help')
+    	
