@@ -18,8 +18,11 @@ class Menubar(tk.Menu):
     def help_screen(self):
     	help = tk.Toplevel()
     	help.title('Help')
+    	help.resizable(False,False)
     	help.iconphoto(False, tk.PhotoImage(file='icon.png'))
     	img = tk.PhotoImage(file="help.png")
-    	label = tk.Label(help,image=img)
-    	label.img = img
-    	label.pack()
+    	tab = tk.Label(help,image=img)
+    	tab.img = img
+    	tab.pack()
+    	
+
