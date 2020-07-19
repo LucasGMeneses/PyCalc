@@ -1,3 +1,2 @@
 
-__pycache__/calc.cpython-38.pyc
-__pycache__/menubar.cpython-38.pyc
+*.pyc
