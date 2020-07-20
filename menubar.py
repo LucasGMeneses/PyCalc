@@ -24,5 +24,14 @@ class Menubar(tk.Menu):
     	tab = tk.Label(help,image=img)
     	tab.img = img
     	tab.pack()
-    	
+    	tk.Label(help,
+    			text="Create by Lucas G. Meneses",
+    			bg='#ffffff',
+    			width=33).pack()
+    	tk.Label(help,
+    			text="Icon create by icons8.com",
+    			bg='#ffffff',
+    			fg='#404040',
+    			width=33).pack()
+
 
