@@ -29,7 +29,7 @@ class Menubar(tk.Menu):
     			bg='#ffffff',
     			width=33).pack()
     	tk.Label(help,
-    			text="Icon create by icons8.com",
+    			text="Icons made by Smashicons\nfrom www.flaticon.com",
     			bg='#ffffff',
     			fg='#404040',
     			width=33).pack()
