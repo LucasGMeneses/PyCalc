@@ -50,7 +50,7 @@ class Botao(tk.Label):
 ## WINDOW CONFIG ##
 win = tk.Tk()
 win.title('PyCalc')
-file = 'icon.png'
+file = 'data/icon.png'
 win.iconphoto(False, tk.PhotoImage(file=file))
 win.resizable(False,False)
 win.config(bg='gray30')

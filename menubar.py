@@ -20,7 +20,7 @@ class Menubar(tk.Menu):
     	help.title('Help')
     	help.resizable(False,False)
     	help.iconphoto(False, tk.PhotoImage(file='icon.png'))
-    	img = tk.PhotoImage(file="help.png")
+    	img = tk.PhotoImage(file="data/help.png")
     	tab = tk.Label(help,image=img)
     	tab.img = img
     	tab.pack()
