@@ -19,18 +19,16 @@ class Menubar(tk.Menu):
     	help = tk.Toplevel()
     	help.title('Help')
     	help.resizable(False,False)
-    	help.iconphoto(False, tk.PhotoImage(file='icon.png'))
+    	help.iconphoto(False, tk.PhotoImage(file='data/icon.png'))
     	img = tk.PhotoImage(file="data/help.png")
     	tab = tk.Label(help,image=img)
     	tab.img = img
     	tab.pack()
     	tk.Label(help,
     			text="Create by Lucas G. Meneses",
-    			bg='#ffffff',
     			width=33).pack()
     	tk.Label(help,
     			text="Icons made by Smashicons\nfrom www.flaticon.com",
-    			bg='#ffffff',
     			fg='#404040',
     			width=33).pack()
 
